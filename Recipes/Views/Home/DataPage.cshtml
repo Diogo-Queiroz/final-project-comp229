@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Data";
+}
+
+@model IEnumerable<Recipes.Models.Recipe>
+
+<DOCTYPE html />
+<html>
+<head>
+    <title>Data Page</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="center-div">
+            <p>
+                <h1>Choose the recipe</h1>
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="center-div">
+                <p>
+                    <h1>Recipes</h1>
+                </p>
+            </div>
+
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Recipe Name:</th>
+                        <th scope="col">Serves</th>
+                        <th scope="col">Cooking Time</th>
+                        <th scope="col">Details</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+
+
+                    @{
+                        int i = 1;
+                        foreach (var p in Model)
+                        {
+                            <tr>
+                                <td>@i</td>
+                                <td>@p.Name</td>
+                                <td>@p.ServingNumber</td>
+                                <td>@p.CookingTime</td>
+                                <td><a  class="btn btn-primary" asp-action="DisplayPage" asp-route-id=@p.Id>Details</a></td>
+
+                            </tr>
+                            i++;
+                        }
+                    }
+
+
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>

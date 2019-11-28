@@ -1,0 +1,54 @@
+﻿@model Recipes.Models.Review;
+
+<DOCTYPE html />
+<html>
+<head>
+    <title>Insert Review</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="center-div">
+        <p>
+
+            <h1>Rate the Recipe</h1>
+
+        </p>
+    </div>
+
+    <div class="container">
+
+        <form asp-controller="Review" asp-action="ReviewPage" method="post">
+            <div asp-validation-summary="All"></div>
+
+
+            <input type="hidden" asp-for="RecipeIndex" value="@ViewBag.RecipeId" />
+
+            <p>
+                <label asp-for="ReviewTitle">Review title:</label>
+                <input asp-for="ReviewTitle" placeholder="Review title" class="form-control" rows="2">
+
+            </p>
+
+            <p>
+                <label asp-for="ReviewText">Review:</label>
+                <textarea asp-for="ReviewText" placeholder="Review" class="form-control" rows="3"></textarea>
+
+            </p>
+
+
+
+            <button class="btn btn-primary" type="submit">Review</button>
+            <button asp-controller="Home" asp-action="Index" class="btn btn-danger">Cancel</button>
+
+
+        </form>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

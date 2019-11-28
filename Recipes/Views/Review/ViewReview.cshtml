@@ -1,0 +1,25 @@
+﻿@model IQueryable<Recipes.Models.Review>
+@{
+    ViewData["Title"] = "ViewReview";
+}
+
+
+    <div class="container">
+
+
+        <h1 class="center-div">Reviews:</h1>
+
+
+        @{
+        int i = 1;
+        foreach (Review p in Model)
+        {
+            <h3>@i - <span style="text-decoration: underline">@p.ReviewTitle </span> </h3>
+            <p>@p.ReviewText</p>
+            <hr />
+            i++;
+        }
+        }
+
+
+    </div>

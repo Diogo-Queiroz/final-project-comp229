@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"] Recipes</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+   
+
+</head>
+<body class="body-bg">
+    <div class="navbar-margin"></div>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark custom-navbar">
+            <div class="container">
+
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index"> <img src="~/images/Recipes.png" alt="Recipes Logo" width="75" height="75" /> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Recipe" asp-action="List">Recipe List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="CRUD" asp-action="InsertPage">Insert Recipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="UserPage">UserPage</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0" asp-controller="Recipe" asp-action="SearchList" method="get">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search" name="search">
+                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+
+        </nav>
+
+    </div>
+    @RenderBody()
+
+    <footer class="footer mt-auto py-3 fixed-bottom">
+        <div class="container">
+            <span class="">&copy; Lucas Bittencourt, Diogo Queiroz and Antoni Peev</span>
+        </div>
+    </footer>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/proper.js/1.14.7/umd/proper.min.js"></script>
+
+
+</body>
+</html>

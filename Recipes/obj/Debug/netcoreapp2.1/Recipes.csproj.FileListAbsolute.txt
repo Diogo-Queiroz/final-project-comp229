@@ -1,0 +1,114 @@
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\bin\Debug\netcoreapp2.1\libman.json
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\bin\Debug\netcoreapp2.1\Recipes.deps.json
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\bin\Debug\netcoreapp2.1\Recipes.runtimeconfig.json
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\bin\Debug\netcoreapp2.1\Recipes.runtimeconfig.dev.json
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\bin\Debug\netcoreapp2.1\Recipes.dll
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\bin\Debug\netcoreapp2.1\Recipes.pdb
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\bin\Debug\netcoreapp2.1\Recipes.Views.dll
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\bin\Debug\netcoreapp2.1\Recipes.Views.pdb
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorAssemblyInfo.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorAssemblyInfo.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.AssemblyInfoInputs.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.AssemblyInfo.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.TagHelpers.input.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.TagHelpers.output.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorCoreGenerate.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\DataPage.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\DisplayPage.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\InsertPage.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\UserPage.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_DataPageLayout.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_DisplayPageLayout.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_InsertPageLayout.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_layout.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_UserPageLayout.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorTargetAssemblyInfo.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorTargetAssemblyInfo.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.Views.pdb
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.dll
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.pdb
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes2\Recipes\obj\Debug\netcoreapp2.1\Recipes.csproj.CopyComplete
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\bin\Debug\netcoreapp2.1\libman.json
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\bin\Debug\netcoreapp2.1\Recipes.deps.json
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\bin\Debug\netcoreapp2.1\Recipes.runtimeconfig.json
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\bin\Debug\netcoreapp2.1\Recipes.runtimeconfig.dev.json
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\bin\Debug\netcoreapp2.1\Recipes.dll
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\bin\Debug\netcoreapp2.1\Recipes.pdb
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\bin\Debug\netcoreapp2.1\Recipes.Views.dll
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\bin\Debug\netcoreapp2.1\Recipes.Views.pdb
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorAssemblyInfo.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorAssemblyInfo.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.AssemblyInfoInputs.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.AssemblyInfo.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.TagHelpers.input.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.TagHelpers.output.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorCoreGenerate.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\CRUD\Delete.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\CRUD\InsertPage.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\DataPage.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\RecipeAdded.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\UserPage.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\Details.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\List.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\FormInput.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorTargetAssemblyInfo.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorTargetAssemblyInfo.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.Views.pdb
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.dll
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.pdb
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.csproj.CopyComplete
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\AddReview.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Recipes.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Review\ViewReview.cshtml.g.cs
+C:\Users\Lucas\Desktop\Centennial\Web Develop\Recipes\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Review\ReviewAdded.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\bin\Debug\netcoreapp2.1\appsettings.json
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\bin\Debug\netcoreapp2.1\libman.json
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\bin\Debug\netcoreapp2.1\Recipes.deps.json
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\bin\Debug\netcoreapp2.1\Recipes.runtimeconfig.json
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\bin\Debug\netcoreapp2.1\Recipes.runtimeconfig.dev.json
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\bin\Debug\netcoreapp2.1\Recipes.dll
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\bin\Debug\netcoreapp2.1\Recipes.pdb
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\bin\Debug\netcoreapp2.1\Recipes.Views.dll
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\bin\Debug\netcoreapp2.1\Recipes.Views.pdb
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.csprojAssemblyReference.cache
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorAssemblyInfo.cache
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorAssemblyInfo.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.AssemblyInfoInputs.cache
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.AssemblyInfo.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.TagHelpers.input.cache
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.TagHelpers.output.cache
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorCoreGenerate.cache
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\CRUD\Delete.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\CRUD\InsertPage.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\DataPage.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\RecipeAdded.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\UserPage.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\AddReview.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\Details.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\List.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Review\ReviewAdded.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Review\ViewReview.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\FormInput.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorTargetAssemblyInfo.cache
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.RazorTargetAssemblyInfo.cs
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.Views.pdb
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.dll
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.pdb
+C:\repos\Centennial-Projects\COMP-229\Final-Project\Recipes\obj\Debug\netcoreapp2.1\Recipes.csproj.CopyComplete

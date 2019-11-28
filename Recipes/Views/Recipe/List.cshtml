@@ -1,0 +1,51 @@
+﻿@model RecipesListViewModel
+
+<div class="container">
+
+    <div class="container">
+        <div class="center-div">
+            <p>
+                <h1>Recipes</h1>
+            </p>
+        </div>
+
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Recipe Name:</th>
+                    <th scope="col">Serves</th>
+                    <th scope="col">Cooking Time</th>
+                    <th scope="col">Details</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+
+
+                @{
+                    int i = 1;
+                    foreach (var p in Model.Recipes)
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td>@p.Name</td>
+                            <td>@p.ServingNumber</td>
+                            <td>@p.CookingTime</td>
+                            <td><a class="btn btn-primary" asp-action="Details" asp-route-id=@p.Id>Details</a></td>
+
+                        </tr>
+                        i++;
+                    }
+                }
+
+
+            </tbody>
+        </table>
+
+        <div page-model="@Model.PagingInfo" page-action="List"></div>
+
+    </div>
+</div>

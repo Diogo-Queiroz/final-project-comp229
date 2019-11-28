@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Display";
+}
+
+@model Recipes.Models.Recipe
+
+
+<DOCTYPE html />
+<html>
+<head>
+    <title>Display Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="center-div">
+            <p>
+                <h1>@Model.Name</h1>
+            </p>
+        </div>
+        <hr />
+
+        <h3>Ingredients:</h3>
+        <p>@Model.Ingredients</p>
+        <hr />
+        <h3>Directions:</h3>
+        <p>@Model.Directions</p>
+        <hr />
+        <h3>Serves:</h3>
+        <p>@Model.ServingNumber</p>
+        <hr />
+        <h3>Cooking Time (minutes):</h3>
+        <p>@Model.CookingTime</p>
+        <hr />
+
+
+        <a class="btn btn-primary" asp-controller="CRUD" asp-action="UpdatePage" asp-route-Id="@Model.Id">Update</a>
+        <hr />
+        <a class="btn btn-success" asp-controller="Recipe" asp-action="AddReview" asp-route-Id="@Model.Id">Review recipe</a>
+        <a class="btn btn-secondary" asp-controller="Review" asp-action="ViewReview" asp-route-Id="@Model.Id">View Reviews</a>
+
+
+    </div>
+
+</body>
+</html>
+
+

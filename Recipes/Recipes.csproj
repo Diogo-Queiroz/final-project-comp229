@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\DisplayModel.cs" />
+    <Compile Remove="Models\FakeRecipeRepository.cs" />
+    <Compile Remove="Models\Ingredients.cs" />
+    <Compile Remove="Models\ViewModels\ReviewsListViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\DisplayPage.cshtml" />
+    <Content Remove="Views\Review\ReviewsPartialView.cshtml" />
+    <Content Remove="Views\Shared\ReviewForm.cshtml" />
+    <Content Remove="Views\Shared\_DataPageLayout.cshtml" />
+    <Content Remove="Views\Shared\_DisplayPageLayout.cshtml" />
+    <Content Remove="Views\Shared\_InsertPageLayout.cshtml" />
+    <Content Remove="Views\Shared\_UserPageLayout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
