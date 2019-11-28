@@ -21,19 +21,26 @@ namespace Recipes.Controllers
         [HttpGet]
         public ViewResult SearchList(string search, int recipePage = 1)
         {
-            return View("List", new RecipesListViewModel
+            RecipesListViewModel list = new RecipesListViewModel
             {
                 Recipes = repository.Recipes
                           .Where(p => p.Name.Contains(search))
                           .Skip((recipePage - 1) * PageSize)
                           .Take(PageSize),
                 PagingInfo = new PagingInfo
-                  {
+                {
                     CurrentPage = recipePage,
                     RecipesPerPage = PageSize,
                     TotalRecipes = repository.Recipes.Count()
                 }
-            });
+            };
+
+            if(list.Recipes.Count() == 0)
+            {
+                ViewBag.Message = "No recipes found!";
+            }
+
+            return View("List", list);
         }
 
         public ViewResult List(int recipePage = 1) =>
