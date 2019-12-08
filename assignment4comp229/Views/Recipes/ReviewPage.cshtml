@@ -1,0 +1,21 @@
+﻿@model assignment4comp229.Models.Review
+<h1>ReviewPage</h1>
+
+<p href="/Recipes/ReviewPage/Model.Item1.RecipeId"</p>
+<form asp-action="ReviewPage">
+    <div class="form-group col-md-6">
+        <label asp-for="RecipeReview" class="control-label"></label>
+        <input asp-for="RecipeReview" class="form-control" placeholder="Review">
+        <span asp-validation-for="RecipeReview" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-6">
+        <label asp-for="Rating" class="control-label"></label>
+        <input asp-for="Rating" class="form-control" placeholder="Rating">
+        <span asp-validation-for="Rating" class="text-danger"></span>
+    </div>
+    <div class="form-group">s
+        <input type="submit" value="ReviewPage" class="btn btn-primary" />
+    </div>
+</form>
+
+

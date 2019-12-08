@@ -1,0 +1,86 @@
+﻿@model Tuple<assignment4comp229.Models.Recipe, IEnumerable<assignment4comp229.Models.Review>>
+
+@{
+    ViewData["Title"] = "Details";
+}
+<h2>Details</h2>
+<hr />
+<div class="container d-flex justify-content-center align-items-center container">
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(tuple => tuple.Item1.Icon)
+            <br />
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(tuple => tuple.Item1.Icon)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(tuple => tuple.Item1.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(tuple => tuple.Item1.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(tuple => tuple.Item1.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(tuple => tuple.Item1.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(tuple => tuple.Item1.Ingredients)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(tuple => tuple.Item1.Ingredients)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(tuple => tuple.Item1.Time)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(tuple => tuple.Item1.Time)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(tuple => tuple.Item1.CreationDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(tuple => tuple.Item1.CreationDate)
+        </dd>
+        <dd class="col-sm-10">
+            <a asp-action="Edit">Edit</a> |
+            <a asp-action="DataPage">Back to List</a> |
+            <a asp-controller="Recipes" asp-action="ReviewPage" asp-route-id="@Model.Item1.RecipeId">Add a Review</a>
+        </dd>
+    </dl>
+</div>
+
+<h2>Reviews</h2>
+<form>
+    <div class="container d-flex justify-content-center align-items-center container">
+        <table class="table table-hover">
+            <thead>
+                <tr><th>User Posted</th>@*<th>Recipe ID</th><th>Review ID</th>*@<th>Review</th></tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Item2)
+                {
+                    if (item.RecipeId == Model.Item1.RecipeId)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(tuple => tuple.Item1.UserName)
+                            </td>
+                            @*<td>
+                                @Html.DisplayFor(tuple => item.RecipeId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(tuple => item.ReviewId)
+                            </td>*@
+                            <td>
+                                @Html.DisplayFor(tuple => item.RecipeReview)
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</form>

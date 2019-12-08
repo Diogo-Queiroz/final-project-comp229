@@ -1,0 +1,36 @@
+﻿@model assignment4comp229.Models.Recipe
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="form-row">
+    <div class="form-group col-md-6">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" placeholder="Name">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group col-md-6">
+        <label asp-for="Icon" class="control-label"></label>
+        <input asp-for="Icon" class="form-control" />
+        <span asp-validation-for="Icon" class="text-danger"></span>
+    </div>
+</div>
+<div class="form-group">
+    <label asp-for="Description" class="control-label"></label>
+    <input asp-for="Description" class="form-control" placeholder="Description" />
+    <span asp-validation-for="Description" class="text-danger"></span>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-6">
+        <label asp-for="Time" class="control-label"></label>
+        <input asp-for="Time" class="form-control" placeholder="Time" />
+        <span asp-validation-for="Time" class="text-danger"></span>
+    </div>
+</div>
+<div class="form-group">
+    <label asp-for="Ingredients" class="control-label"></label>
+    <input asp-for="Ingredients" class="form-control" placeholder="Ingredients" />
+    <span asp-validation-for="Ingredients" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <input type="submit" value="Create" class="btn btn-primary" />
+    &nbsp;&nbsp;<a asp-action="DataPage">Back to List</a>
+</div>

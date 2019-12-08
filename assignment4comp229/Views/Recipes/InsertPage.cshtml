@@ -1,0 +1,16 @@
+﻿@model assignment4comp229.Models.Recipe
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+    <h1>&nbsp;Create</h1>
+    <h4>&nbsp;&nbsp;Recipe</h4>
+<hr />
+<div class="container d-flex justify-content-center align-items-center container" >
+    <div class="col-md-7">
+        <form asp-action="InsertPage">
+            @await Html.PartialAsync("FormInputs")
+        </form>
+    </div>
+</div>

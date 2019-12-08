@@ -1,0 +1,119 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
+
+body{
+    background-color:white;
+  margin: 0;
+  padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header{
+  color: black;
+  font-size: 25px;
+  list-style: none;
+  text-align: center;
+  margin:0px;
+  padding: 20px 20px 20px 20px;
+}
+
+.header > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+ }
+
+.header > li > a {
+  text-decoration: none;
+  color: black;
+}
+.header > li > a:hover {
+  color: #f56960;
+}
+
+#companyLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+#t1 {
+    font-size: 30px;
+}
+
+#homesubmit{
+color: white;
+}
+
+#slogan{
+ font-family: 'Dancing Script', cursive;
+ font-size: 22px;
+ text-align: center;
+ color: black;
+}
+
+.content{
+  color: white;
+  background-image: url("../images/cooking.jpg");
+    background-repeat: no-repeat;
+      background-size: cover;
+  text-align:center;
+}
+
+.container{
+ position: relative;
+}
+.form{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+
+.link{
+  color: white;
+  font-size: 25px;
+  list-style: none;
+  text-align: center;
+  margin:0px;
+  padding: 20px 20px 20px 20px;
+}
+
+.link > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+ }
+
+.link > li > a {
+  text-decoration: none;
+  color: white;
+}
+.link > li > a:hover {
+  color: #f56960;
+}
+
+
+html, body{ height:100%; margin:0; }
+header{ height:50px; background:lightcyan; }
+footer{ height:50px; background:PapayaWhip; }
+.footer {
+  /*
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+   Set the fixed height of the footer here 
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/* Trick */
+body{ 
+  display:flex; 
+  flex-direction:column; 
+}
+
+#footer{
+  text-align: center;
+}

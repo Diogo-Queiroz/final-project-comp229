@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\Centennial-Projects\\COMP-229\\Final-Project\\Recipes\\Recipes.csproj": {}
+    "C:\\repos\\Final-Project-Comp229\\Recipes\\Recipes.csproj": {}
   },
   "projects": {
-    "C:\\repos\\Centennial-Projects\\COMP-229\\Final-Project\\Recipes\\Recipes.csproj": {
+    "C:\\repos\\Final-Project-Comp229\\Recipes\\Recipes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\Centennial-Projects\\COMP-229\\Final-Project\\Recipes\\Recipes.csproj",
+        "projectUniqueName": "C:\\repos\\Final-Project-Comp229\\Recipes\\Recipes.csproj",
         "projectName": "Recipes",
-        "projectPath": "C:\\repos\\Centennial-Projects\\COMP-229\\Final-Project\\Recipes\\Recipes.csproj",
+        "projectPath": "C:\\repos\\Final-Project-Comp229\\Recipes\\Recipes.csproj",
         "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\Centennial-Projects\\COMP-229\\Final-Project\\Recipes\\obj\\",
+        "outputPath": "C:\\repos\\Final-Project-Comp229\\Recipes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -73,7 +73,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
