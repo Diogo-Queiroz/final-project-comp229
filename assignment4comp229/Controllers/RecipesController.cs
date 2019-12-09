@@ -12,6 +12,7 @@ using System.Security.Claims;
 using assignment4comp229.Data;
 using System.IO;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Hosting;
 
 namespace assignment3comp229.Controllers
 {
@@ -19,8 +20,10 @@ namespace assignment3comp229.Controllers
     {
         private string loggedUser;
         private readonly SeedData _context;
-        public RecipesController(SeedData context)
+        private readonly IHostingEnvironment hostingEnvironment;
+        public RecipesController(SeedData context, IHostingEnvironment environment)
         {
+            hostingEnvironment = environment;
             _context = context;
         }
        
@@ -97,56 +100,26 @@ namespace assignment3comp229.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
-        public async Task<IActionResult> InsertPage([Bind("RecipeId,Name,Description,Ingredients,Icon,Time,CreationDate")] Recipe recipe, List<IFormFile> files)
+        public async Task<IActionResult> InsertPage([Bind("RecipeId,Name,Description,Ingredients,Icon,Time,CreationDate")] Recipe recipe, IFormFile Icon) //List<IFormFile> files)
         {
-            var uploadPath = "~/images/recipe-img/";
-            long size = files.Sum(f => f.Length);
-            var fileName = "";
-            if (ModelState.IsValid)
+          var uploadPath = Path.Combine(hostingEnvironment.WebRootPath, "uploads");
+          if (ModelState.IsValid)
+          {
+            recipe.UserName = User.Identity.Name.ToString();
+            recipe.CreationDate = DateTime.Now;
+            var nextRecipeId = _context.Recipes.Last().RecipeId + 1;
+            if (Icon != null && Icon.Length > 0)
             {
-                //var files = HttpContext.Request.Form.Files;
-                foreach (var file in files)
-                {
-                    if (file != null && file.Length > 0)
-                    {
-                      var formFileName = Path.GetTempFileName();
-                      fileName = recipe.Icon.ToString();
-                  
-                      recipe.Icon = Path.Combine(
-                        uploadPath,
-                        recipe.UserName,
-                        recipe.Name,
-                        recipe.RecipeId.ToString(),
-                        Path.GetExtension(fileName));
-
-                      using (var stream = System.IO.File.Create(uploadPath))
-                      {
-                        await file.CopyToAsync(stream);
-                      }
-
-                      /*using (var fileStream = new FileStream(uploadPath, FileMode.Create))
-                      {
-                        await file.CopyToAsync(fileStream);
-                      }*/
-                    }
-                }
-        
-                    
-                recipe.UserName = User.Identity.Name.ToString();
-                recipe.CreationDate = DateTime.Now;
-                fileName = recipe.Icon.ToString();
-                recipe.Icon = Path.Combine(
-                        uploadPath,
-                        recipe.UserName,
-                        recipe.Name,
-                        recipe.RecipeId.ToString(),
-                        Path.GetExtension(fileName));
-                recipe.Icon = uploadPath + recipe.UserName + recipe.Name + recipe.RecipeId.ToString() + Path.GetExtension(fileName);
-                _context.Add(recipe);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(DataPage));
+                var fullPath = Path.Combine(uploadPath, (recipe.UserName + recipe.Name + Path.GetExtension(Icon.FileName)));
+                Icon.CopyTo(new FileStream(fullPath, FileMode.Create));
+                recipe.Icon = fullPath;
             }
-            return View(recipe);
+              
+            _context.Add(recipe);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(DataPage));
+          }
+          return View(recipe);
         }
 
         //GET: Recipes/ReviewPage

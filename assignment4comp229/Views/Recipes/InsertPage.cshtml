@@ -9,7 +9,7 @@
 <hr />
 <div class="container d-flex justify-content-center align-items-center container" >
     <div class="col-md-7">
-        <form asp-action="InsertPage">
+        <form asp-action="InsertPage" enctype="multipart/form-data">
             @await Html.PartialAsync("FormInputs")
         </form>
     </div>
