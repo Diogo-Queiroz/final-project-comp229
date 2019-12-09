@@ -110,9 +110,10 @@ namespace assignment3comp229.Controllers
             var nextRecipeId = _context.Recipes.Last().RecipeId + 1;
             if (Icon != null && Icon.Length > 0)
             {
-                var fullPath = Path.Combine(uploadPath, (recipe.UserName + recipe.Name + Path.GetExtension(Icon.FileName)));
+                var path = recipe.UserName + recipe.Name + Path.GetExtension(Icon.FileName);
+                var fullPath = Path.Combine(uploadPath, path);
                 Icon.CopyTo(new FileStream(fullPath, FileMode.Create));
-                recipe.Icon = fullPath;
+                recipe.Icon = "\\uploads\\" + path;
             }
               
             _context.Add(recipe);
