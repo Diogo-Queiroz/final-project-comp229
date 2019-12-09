@@ -16,7 +16,7 @@ namespace assignment4comp229.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public string Ingredients { get; set; }
-        public byte[] Icon { get; set; }
+        public string Icon { get; set; }
         public string Time { get; set; }
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public DateTime? CreationDate { get; set; }

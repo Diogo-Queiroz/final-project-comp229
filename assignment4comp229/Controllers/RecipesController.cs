@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using assignment4comp229.Data;
+using System.IO;
+using Microsoft.AspNetCore.Http;
 
 namespace assignment3comp229.Controllers
 {
@@ -95,11 +97,43 @@ namespace assignment3comp229.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
-        public async Task<IActionResult> InsertPage([Bind("RecipeId,Name,Description,Ingredients,Icon,Time,CreationDate")] Recipe recipe)
+        public async Task<IActionResult> InsertPage([Bind("RecipeId,Name,Description,Ingredients,Icon,Time,CreationDate")] Recipe recipe, List<IFormFile> files)
         {
+            var uploadPath = "~/images/recipe-img/";
+            long size = files.Sum(f => f.Length);
             if (ModelState.IsValid)
             {
+                //var files = HttpContext.Request.Form.Files;
+                foreach (var file in files)
+                {
+                    if (file != null && file.Length > 0)
+                    {
+                      var formFileName = Path.GetTempFileName();
+                      var fileName = recipe.Icon.ToString();
+                  
+                      recipe.Icon = Path.Combine(
+                        uploadPath,
+                        recipe.UserName,
+                        recipe.Name,
+                        recipe.RecipeId.ToString(),
+                        Path.GetExtension(fileName));
+
+                      using (var stream = System.IO.File.Create(uploadPath))
+                      {
+                        await file.CopyToAsync(stream);
+                      }
+
+                      /*using (var fileStream = new FileStream(uploadPath, FileMode.Create))
+                      {
+                        await file.CopyToAsync(fileStream);
+                      }*/
+                    }
+                }
+        
+                    
                 recipe.UserName = User.Identity.Name.ToString();
+                recipe.CreationDate = DateTime.Now;
+                //fileName = recipe.Icon.ToString();
                 _context.Add(recipe);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(DataPage));
