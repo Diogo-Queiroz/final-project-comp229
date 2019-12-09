@@ -101,6 +101,7 @@ namespace assignment3comp229.Controllers
         {
             var uploadPath = "~/images/recipe-img/";
             long size = files.Sum(f => f.Length);
+            var fileName = "";
             if (ModelState.IsValid)
             {
                 //var files = HttpContext.Request.Form.Files;
@@ -109,7 +110,7 @@ namespace assignment3comp229.Controllers
                     if (file != null && file.Length > 0)
                     {
                       var formFileName = Path.GetTempFileName();
-                      var fileName = recipe.Icon.ToString();
+                      fileName = recipe.Icon.ToString();
                   
                       recipe.Icon = Path.Combine(
                         uploadPath,
@@ -133,7 +134,14 @@ namespace assignment3comp229.Controllers
                     
                 recipe.UserName = User.Identity.Name.ToString();
                 recipe.CreationDate = DateTime.Now;
-                //fileName = recipe.Icon.ToString();
+                fileName = recipe.Icon.ToString();
+                recipe.Icon = Path.Combine(
+                        uploadPath,
+                        recipe.UserName,
+                        recipe.Name,
+                        recipe.RecipeId.ToString(),
+                        Path.GetExtension(fileName));
+                recipe.Icon = uploadPath + recipe.UserName + recipe.Name + recipe.RecipeId.ToString() + Path.GetExtension(fileName);
                 _context.Add(recipe);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(DataPage));
