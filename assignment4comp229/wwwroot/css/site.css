@@ -117,3 +117,8 @@ body{
 #footer{
   text-align: center;
 }
+
+img .img-size {
+  max-width: 235px !important;
+  max-height: 235px !important;
+}
